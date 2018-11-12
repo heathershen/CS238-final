@@ -349,7 +349,7 @@ function POMDPs.reward(m::RoombaModel,
     cum_reward += mdp(m).goal_reward*(sp.status == 1.0)
     cum_reward += mdp(m).stairs_penalty*(sp.status == -1.0)
 
-    return cum_reward  
+    return cum_reward
 end
 
 # determine if a terminal state has been reached
