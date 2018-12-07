@@ -240,11 +240,15 @@ version = "0.2.4"
 
 [[FIB]]
 deps = ["POMDPModelTools", "POMDPPolicies", "POMDPs", "Printf"]
+<<<<<<< HEAD
+git-tree-sha1 = "b235384b529d57247f528076415ce167c368e8c1"
+=======
 git-tree-sha1 = "753cd5a1eb903420f36f8a5c3c17093295acfe67"
+>>>>>>> 0f1599fc449b112365d1cab4faf0317fa9601ef3
 repo-rev = "master"
 repo-url = "https://github.com/JuliaPOMDP/FIB.jl.git"
 uuid = "13b007ba-0ca8-5af2-9adf-bc6a6301e25a"
-version = "0.2.0"
+version = "0.3.0"
 
 [[FileIO]]
 deps = ["Pkg", "Random", "Test"]
